@@ -1,0 +1,1 @@
+create table if not exists urlpairs(id identity, longUrl varchar(300) not null, shortUrl varchar(100) not null);
